@@ -127,6 +127,7 @@
     subtitle.textContent = t.subtitle;
     aboutMeButton.textContent = t.aboutMe;
     contactMeButton.textContent = t.contactMe;
+    bottomContactMeButton.textContent = t.contactMe;
     toggleButton.textContent = t.toggleBtn;
     sendButton.textContent = t.sendMessage;
 
@@ -174,10 +175,7 @@
     project3.querySelector('.project-name').textContent = t.project3.name;
     project3.querySelector('.project-description').textContent = t.project3.description;
 
-    const project4 = document.getElementById('project4');
-    project4.querySelector('.project-name').textContent = t.project4.name;
-    project4.querySelector('.project-description').textContent = t.project4.description;
-};
+    }
 
 
     toggleButton.addEventListener('click', () => {
