@@ -127,7 +127,6 @@
     subtitle.textContent = t.subtitle;
     aboutMeButton.textContent = t.aboutMe;
     contactMeButton.textContent = t.contactMe;
-    bottomContactMeButton.textContent = t.contactMe;
     toggleButton.textContent = t.toggleBtn;
     sendButton.textContent = t.sendMessage;
 
