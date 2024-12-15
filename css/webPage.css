@@ -101,11 +101,9 @@ body {
     font-size: 16px;
     padding: 8px;
     width: 100%;
-    max-width: 400px;
+    max-width: 600px;
     border: none;
     border-radius: 4px;
-    margin: 0 auto; /* Centrarea elementului */
-    display: block;
 }
 
 /* Introduction Section */
@@ -408,7 +406,7 @@ a {
         font-size: 14px; 
         padding: 6px; 
         width: 80%; 
-        max-width: 350px;
+        max-width: 300px;
         margin-left: auto;
         margin-right: auto; 
     }
@@ -436,7 +434,7 @@ a {
         font-size: 12px; 
         padding: 4px; 
         width: 75%; 
-        max-width: 300px; 
+        max-width: 250px; 
 }
 
 /* CONTACT FORM */
