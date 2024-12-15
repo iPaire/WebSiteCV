@@ -104,7 +104,6 @@ body {
     max-width: 400px;
     border: none;
     border-radius: 4px;
-    
 }
 
 /* Introduction Section */
@@ -400,8 +399,13 @@ a {
     background-color: rgba(7, 7, 7, 0.541);
 }
 
-/* Responsive Design */
+/* Telefoane Design */
 @media (max-width: 768px) {
+    .search_bar {
+        font-size: 14px; /* Font mai mic */
+        padding: 6px; /* Padding mai mic */
+        max-width: 300px; /* Lățime maximă mai mică */
+    }
     .Titlu {
         font-size: 2rem;
     }
@@ -419,6 +423,13 @@ a {
         width: 100px;
         height: 40px;
         font-size: 0.9rem;
+    }
+}
+@media (max-width: 480px) {
+    .search_bar {
+        font-size: 12px; /* Font și mai mic */
+        padding: 4px; /* Padding și mai mic */
+        max-width: 250px; /* Lățime maximă și mai mică */
     }
 }
 
