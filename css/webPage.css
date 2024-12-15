@@ -98,9 +98,6 @@ body {
 }
 
 .search_bar {
-    position: fixed;
-    top:10px;
-    left:650px;
     font-size: 16px;
     padding: 8px;
     width: 100%;
@@ -408,7 +405,7 @@ a {
     .search_bar {
         position: fixed;
         top:10px;
-        left:550px;
+        left:500px;
         font-size: 14px; /* Font mai mic */
         padding: 6px; /* Padding mai mic */
         width: 90%; /* Lățimea mai mică pentru a se potrivi mai bine pe ecran */
@@ -439,7 +436,7 @@ a {
     search_bar {
         position: fixed;
         top:10px;
-        left:450px;
+        left:400px;
         font-size: 12px; /* Font și mai mic */
         padding: 4px; /* Padding și mai mic */
         width: 80%; /* Lățimea mai mică pentru ecranele foarte mici */
