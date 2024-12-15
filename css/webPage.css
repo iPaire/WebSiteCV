@@ -404,12 +404,12 @@ a {
 /* Telefoane Design */
 @media (max-width: 768px) {
     .search_bar {
-        font-size: 12px;
-        padding: 4px;
-        max-width: 250px; /* Lățime mai mică pe ecrane mici */
-        width: 100%;
-        margin-left: auto;
-        margin-right: auto;
+        font-size: 14px; /* font mai mic */
+        padding: 6px; /* padding mai mic */
+        width: 80%; /* ocupă 80% din lățimea ecranului */
+        max-width: 300px; /* lățimea maximă rămâne aceeași */
+        left: 10%; /* deplasează-l la stânga */
+        position: relative;
     }
     .Titlu {
         font-size: 2rem;
