@@ -98,16 +98,15 @@ body {
 }
 
 .search_bar {
-    font-size: 14px; /
-    padding: 6px; 
-    max-width: 280px;
+    font-size: 16px;
+    padding: 8px;
     width: 100%;
-    margin-left: 10px; 
-    margin-right: auto; 
-    display: block;
-    box-sizing: border-box; 
+    max-width: 600px;
+    border: none;
+    border-radius: 4px;
 }
 
+/* Introduction Section */
 /* Introduction Section */
 .Introduction {
     text-align: center;
@@ -404,12 +403,12 @@ a {
 /* Telefoane Design */
 @media (max-width: 768px) {
     .search_bar {
-        font-size: 14px; /* font mai mic */
-        padding: 6px; /* padding mai mic */
-        width: 80%; /* ocupă 80% din lățimea ecranului */
-        max-width: 300px; /* lățimea maximă rămâne aceeași */
-        left: 10%; /* deplasează-l la stânga */
-        position: relative;
+        font-size: 14px; /* Font mai mic */
+        padding: 6px; /* Padding mai mic */
+        width: 90%; /* Lățimea mai mică pentru a se potrivi mai bine pe ecran */
+        max-width: none; /* Elimina limita de lățime maximă */
+        margin-left: 5%; /* Centrarea pe orizontală, cu un mic spațiu la stânga */
+        box-sizing: border-box; /* Include padding-ul și border-ul în calculul dimensiunii */
     }
     .Titlu {
         font-size: 2rem;
