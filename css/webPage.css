@@ -407,6 +407,7 @@ a {
         padding: 6px;
         max-width: 300px; 
         width: 100%; 
+	margin-left: 10px;
     }
     .Titlu {
         font-size: 2rem;
@@ -433,6 +434,7 @@ a {
         padding: 4px; /* Padding și mai mic */
         max-width: 250px; /* Lățime maximă și mai mică */
         width: 100%;
+	margin-left: 10px;
     }
 }
 
