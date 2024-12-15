@@ -405,10 +405,9 @@ a {
     .search_bar {
         position: fixed;
         top:10px;  
-        left:550px;
         font-size: 14px; /* Font mai mic */
         padding: 6px; /* Padding mai mic */
-        width: 90%; /* Lățimea mai mică pentru a se potrivi mai bine pe ecran */
+        width: 85%; /* Lățimea mai mică pentru a se potrivi mai bine pe ecran */
     }
     .Titlu {
         font-size: 2rem;
@@ -433,12 +432,11 @@ a {
     search_bar {
         position: fixed;
         top:10px;
-        left:400px;
-        font-size: 12px; /* Font și mai mic */
-        padding: 4px; /* Padding și mai mic */
-        width: 80%; /* Lățimea mai mică pentru ecranele foarte mici */
-        margin-left: 10%; /* Centrarea pe ecran, cu mai mult spațiu la stânga */
-        box-sizing: border-box; /* Include padding-ul și border-ul în calculul dimensiunii */
+        font-size: 12px;
+        padding: 4px;
+        width: 75%;
+        margin-left: 10%;
+        box-sizing: border-box;
     }
 }
 
