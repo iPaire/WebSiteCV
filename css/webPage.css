@@ -98,16 +98,16 @@ body {
 }
 
 .search_bar {
-    font-size: 14px;
-    padding: 6px;
+    font-size: 14px; /
+    padding: 6px; 
     max-width: 280px;
     width: 100%;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 10px; 
+    margin-right: auto; 
     display: block;
+    box-sizing: border-box; 
 }
 
-/* Introduction Section */
 /* Introduction Section */
 .Introduction {
     text-align: center;
