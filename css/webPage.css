@@ -404,12 +404,11 @@ a {
 @media (max-width: 768px) {
     .search_bar {
         position: fixed;
-        top:10px;
-        right:550px;
+        top:10px;  
+        left:550px;
         font-size: 14px; /* Font mai mic */
         padding: 6px; /* Padding mai mic */
         width: 90%; /* Lățimea mai mică pentru a se potrivi mai bine pe ecran */
-	text-align: left;
     }
     .Titlu {
         font-size: 2rem;
