@@ -403,11 +403,12 @@ a {
 /* Telefoane Design */
 @media (max-width: 768px) {
     .search_bar {
-        font-size: 14px; 
-        padding: 6px;
-        max-width: 300px; 
-        width: 100%; 
-	margin-left: 10px;
+        font-size: 14px; /* Font mai mic */
+        padding: 6px; /* Padding mai mic */
+        width: 90%; /* Lățimea mai mică pentru a se potrivi mai bine pe ecran */
+        max-width: none; /* Elimina limita de lățime maximă */
+        margin-left: 5%; /* Centrarea pe orizontală, cu un mic spațiu la stânga */
+        box-sizing: border-box; /* Include padding-ul și border-ul în calculul dimensiunii */
     }
     .Titlu {
         font-size: 2rem;
@@ -429,12 +430,12 @@ a {
     }
 }
 @media (max-width: 480px) {
-    .search_bar {
+    search_bar {
         font-size: 12px; /* Font și mai mic */
         padding: 4px; /* Padding și mai mic */
-        max-width: 250px; /* Lățime maximă și mai mică */
-        width: 100%;
-	margin-left: 10px;
+        width: 80%; /* Lățimea mai mică pentru ecranele foarte mici */
+        margin-left: 10%; /* Centrarea pe ecran, cu mai mult spațiu la stânga */
+        box-sizing: border-box; /* Include padding-ul și border-ul în calculul dimensiunii */
     }
 }
 
