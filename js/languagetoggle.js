@@ -25,7 +25,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // Dicționar
     const translations = {
         en: {
-            subtitle: 'Network Engineer',
+            subtitle: 'Software Developer',
             aboutMe: 'About Me',
             contactMe: 'Contact Me',
             sidebar: ['Home', 'About Me', 'Services', 'Portfolio', 'Contact'],
@@ -57,7 +57,7 @@ document.addEventListener('DOMContentLoaded', () => {
             },
         },
         ro: {
-            subtitle: 'Inginer de Rețea',
+            subtitle: 'Dezvoltator Software',
             aboutMe: 'Despre Mine',
             contactMe: 'Contactează-mă',
             sidebar: ['Acasă', 'Despre Mine', 'Servicii', 'Portofoliu', 'Contact'],
@@ -89,7 +89,7 @@ document.addEventListener('DOMContentLoaded', () => {
             },
         },
         es: {
-            subtitle: 'Ingeniero de Redes',
+            subtitle: 'Desarollador de Software',
             aboutMe: 'Sobre Mí',
             contactMe: 'Contáctame',
             sidebar: ['Inicio', 'Sobre Mí', 'Servicios', 'Portafolio', 'Contacto'],
